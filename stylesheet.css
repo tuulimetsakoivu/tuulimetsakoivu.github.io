@@ -1,7 +1,10 @@
+/* The style of the main page */
+
 body{
-    margin: 0 !important;
+    margin: 0;
 }
 
+/* Style of the banner on the main page */
 
 header {
     padding 0px;
@@ -48,6 +51,7 @@ h1 {
     
 }
 
+/* Navigation bar */
 
 .navigation {
     margin: 0px;
@@ -83,6 +87,8 @@ h1 {
 .navigation a:hover {
     color: #bbd7e8;
 }
+
+/* The articles on the home page */
 
 h2 {
     font-family: 'Poppins', sans-serif;
@@ -149,6 +155,8 @@ p {
     margin-bottom: 0;
 }
 
+/* Style of the footer */
+
 footer {
     width: 100%;
     height: 60px;
@@ -195,6 +203,8 @@ footer ul {
     padding-left: 10px;
 }
 
+/* Extra settings for the "Yritys" page */
+
 h3 {
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
@@ -232,6 +242,8 @@ h3 {
 	height:100%;
 }
 
+/* Settings for the "FAQ" page */
+
 .questions {
     background-image: url(https://c1.staticflickr.com/7/6077/6030649272_221d7cc70e_b.jpg);
     background-size: cover;
@@ -259,9 +271,12 @@ h3 {
     background-color: rgba(49, 117, 127, 0.7);
 }
 
+/* Settings for the "Yhteystiedot" page */
+
 .contact {
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/78/Finnish_forest.JPG);
     background-size: cover;
+    height: 100%;
     padding: 18%;
 }
 
@@ -271,6 +286,8 @@ h3 {
     background-color: rgb(49, 127, 75);
     background-color: rgba(49, 127, 75, 0.7);
 }
+
+/* Breakpoints for different screensizes */
 
 @media screen and (max-width: 450px) {
     h1 {
