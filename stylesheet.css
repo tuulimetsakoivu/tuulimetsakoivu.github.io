@@ -1,7 +1,60 @@
+body{
+    margin: 0 !important;
+}
+
+
+header {
+    padding 0px;
+    margin: 0px;
+    max-height: 420px;
+    background-color: darkgray;
+}
+
+header h2 {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(10, 103, 150);
+    color: rgba(10, 103, 150, 0.8);
+}
+
+#line1 {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#line2 {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.banner {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    max-height: 420px;
+}
+
+h1 {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 60px;
+    padding: 20px;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 300%;
+    color: rgb(10, 103, 150);
+    
+}
+
+
 .navigation {
-    background-color: crimson;
+    margin: 0px;
+    padding: 0px;
+    background-color: darkgray;
     text-align: center;
-    position: fixed;
+    position: sticky;
     top: 0px;
     left: 0px;
     right: 0px;
@@ -10,13 +63,16 @@
 
 .navigation li {
     display: inline-block;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    margin-right: 10px;
+    margin-top: 10px;
+    padding-bottom: 0px;
+    width: 20%;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navigation ul {
-    height: 50px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
 }
 
 .navigation a {
@@ -24,59 +80,140 @@
     color: white;
 }
 
-.navigation summary {
-    color: white;
-}
-
-.navigation details {
-    color: white;
-}
-
-.navigation summary:hover {
-    color: gainsboro;
-}
-
 .navigation a:hover {
-    color: gainsboro;
+    color: #bbd7e8;
 }
 
-.header {
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    margin: auto;
+    padding-top: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: none;
     text-align: center;
 }
 
-h1 {
-    margin-top: 100px;
-    text-align: center;
-}
-
-.blog-post {
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 15px;
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    background-color: floralwhite;
-    border-color: firebrick;
-    border-width: 5px;
-    border-style: ridge;
-    border-radius: 15px;   
-}
-
-.blog-post h2 {
-    transition: 2s;
-}
-
-.blog-post h2:hover {
-    transition: 2s;
-    font-size: 3em;
-}
-
-.resize {
+.introduction {
     width: 100%;
-    max-width: 2000px;
-    height: auto;
+    height: 300px;
+}
+
+.introduction a {
+    color: white;
+}
+
+.introduction a:hover {
+    color: cornflowerblue;
+}
+
+#introtext {
+    background-color: #2e66a5;
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+
+#intropic {
+    width: 50%;
+    height: 300px;
+    float:right;
+    margin: 0;
+}
+
+#squadpic {
+    width: 50%;
+    height: 300px;
+    float:left;
+    margin: 0;
+}
+
+#squadtext {
+    background-color: #bbd7e8;
+    width: 50%;
+    height: 100%;
+    float:right;
+    margin: 0;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+    
+}
+
+footer li {
+    display: inline-block;
+    margin-top: 0px;
+    padding-top: 20px;
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+    vertical-align: middle;
+}
+
+footer ul {
+    margin: 0;
+    padding-left: 10px;
+}
+
+.name, .credits {
+    padding: 10px, 0, 0, 0;
+    border: 0;
+    margin: 0;
+}
+
+.name {
+    vertical-align: middle;
+}
+
+.credits {
+    float: right;
+    text-align: right;
+}
+
+#sponsor {
+    float: right;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    margin: auto;
+    padding-top: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: none;
+    text-align: center;
+}
+
+#ourstory {
+    background-color: #1a5477;
+    text-align: center;
+}
+
+#storytext {
+    width: 70%;
+    margin-left: 15%;
 }
 
 .video-container {
@@ -84,18 +221,95 @@ h1 {
     padding-bottom: 56.25%;
     padding-top: 25px;
     height: 0;
+    overflow:hidden;
 }
 
 .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
 }
 
-@media screen and (max-width: 500px) {
-    .blog-post {
+.questions {
+    background-image: url(https://c1.staticflickr.com/7/6077/6030649272_221d7cc70e_b.jpg);
+    background-size: cover;
+}
+
+#kysymys1 {
+    width: 50%;
+    height: auto;
+    background-color: rgb(115, 188, 198);
+    background-color: rgba(115, 188, 198, 0.7);
+}
+
+#kysymys2 {
+    width: 50%;
+    height: auto;
+    background-color: rgb(69, 140, 150);
+    background-color: rgba(69, 140, 150, 0.7);
+    margin-left: 50%;
+}
+
+#kysymys3 {
+    width: 50%;
+    height: auto;
+    background-color: rgb(49, 117, 127);
+    background-color: rgba(49, 117, 127, 0.7);
+}
+
+.contact {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/78/Finnish_forest.JPG);
+    background-size: cover;
+    padding: 18%;
+}
+
+#yhteystietoja {
+    width: 50%;
+    margin-left: 25%;
+    background-color: rgb(49, 127, 75);
+    background-color: rgba(49, 127, 75, 0.7);
+}
+
+@media screen and (max-width: 450px) {
+    h1 {
+        margin-left: 15px;
+        font-size: 230%;
+    }
+    h1, #line1, #line2 {
+        color: white;
+    }
+    #introtext, #intropic, #squadpic, #squadtext {
         width: 100%;
     }
+    .navigation li {
+        display: inline-table;
+        padding: 0;
+    }
+    #kysymys1, #kysymys2, #kysymys3 {
+        width: 100%;
+    }
+    #kysymys2 {
+        margin-left: 0;
+    }
+    .contact {
+        padding: 5%;
+    }
+    #yhteystietoja {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .credits {
+        padding-top: 6px;
+    }
+    footer {
+        clear: right;
+    }
+    
 }
+
+
+
+
+
