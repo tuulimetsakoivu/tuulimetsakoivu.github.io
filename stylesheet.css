@@ -323,6 +323,10 @@ h3 {
         width: 100%;
     }
     
+    #introtext, #squadtext {
+        height: auto;
+    }
+    
     /* Hides the normal navigation */
      
     .navigation li {
