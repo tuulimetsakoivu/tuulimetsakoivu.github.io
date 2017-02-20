@@ -7,7 +7,6 @@ body{
 /* Style of the banner on the main page */
 
 header {
-    padding 0px;
     margin: 0px;
     max-height: 420px;
     background-color: darkgray;
@@ -88,6 +87,20 @@ h1 {
     color: #bbd7e8;
 }
 
+/* Hides the dropdown by default */
+
+.dropbtn {
+    display: none;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown-background {
+    display: none;
+}
+
 /* The articles on the home page */
 
 h2 {
@@ -97,7 +110,7 @@ h2 {
     padding-top: 12px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: none;
+    padding-bottom: 0;
     text-align: center;
 }
 
@@ -183,7 +196,7 @@ footer ul {
 }
 
 .name, .credits {
-    padding: 10px, 0, 0, 0;
+    padding-top: 10px;
     border: 0;
     margin: 0;
 }
@@ -203,6 +216,13 @@ footer ul {
     padding-left: 10px;
 }
 
+footer p {
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 0;
+    text-align: left;
+}
+
 /* Extra settings for the "Yritys" page */
 
 h3 {
@@ -212,7 +232,7 @@ h3 {
     padding-top: 12px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: none;
+    padding-bottom: 0;
     text-align: center;
 }
 
@@ -294,32 +314,105 @@ h3 {
         margin-left: 15px;
         font-size: 230%;
     }
+    
     h1, #line1, #line2 {
         color: white;
     }
+    
     #introtext, #intropic, #squadpic, #squadtext {
         width: 100%;
     }
+    
+    /* Hides the normal navigation */
+     
     .navigation li {
-        display: inline-table;
-        padding: 0;
+        display: none;
     }
+    
+    .navigation ul {
+        display: none;
+    }
+    
+    /* Dropdown settings */
+
+    .dropdown-background {
+        display: block;
+        background-color: darkgray;
+        height: 54px;
+        margin: 0;
+        padding-left: 33%;
+    }
+    
+    .dropbtn {
+        display: block;
+        background-color: darkgray;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        font-family: 'Poppins', sans-serif;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: rgb(156, 159, 163)
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+        background-color: darkgray;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: rgb(156, 159, 163);
+    }
+
+    /*Rearrangement of the question layout */
+    
     #kysymys1, #kysymys2, #kysymys3 {
         width: 100%;
     }
+    
     #kysymys2 {
         margin-left: 0;
     }
+    
     .contact {
         padding: 5%;
     }
+    
     #yhteystietoja {
         width: 80%;
         margin-left: 10%;
     }
+    
     .credits {
         padding-top: 6px;
     }
+    
     footer {
         clear: right;
     }
