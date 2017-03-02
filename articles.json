@@ -1,0 +1,17 @@
+{ 
+    "article1": {
+        "title" : "Terve!",
+        "date" : "20/7/2017",
+        "content" : "blaablaablaa"
+    },
+    "article2": {
+        "title" : "Hellou!",
+        "date" : "22/8/2017",
+        "content" : "blööblööblöö"
+    },
+    "article3": {
+        "title" : "Ciao!",
+        "date" : "23/9/2017",
+        "content" : "byebyebyebye"
+    }
+}
