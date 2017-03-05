@@ -128,13 +128,34 @@ h1 {
     width: 50%;
     margin-left: 25%;
     margin-top: 10%;
-    background-color: rgba(48, 76, 130, 0.6)
+    background-color: rgb(48, 76, 130);
+    background-color: rgba(48, 76, 130, 0.6);
+}
+
+#text-1 {
+    padding-bottom: 15px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30%;
+    border-radius: 45%;
+    background-color: rgb(145, 117, 88);
+    background-color: rgba(145, 117, 88, 0.6);
+}
+
+#text-2 {
+    padding-bottom: 15px;
+    width: 40%;
+    margin-left: 2.5%;
+    margin-top: 8%;
+    background-color: rgb(53, 41, 29);
+    background-color: rgba(53, 41, 29, 0.6);
 }
 
 .button {
     position: absolute;
     color: aliceblue;
     margin-bottom: 70px;
+    z-index: 10;
 }
 
 .button:hover{
