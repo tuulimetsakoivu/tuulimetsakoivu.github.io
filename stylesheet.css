@@ -101,6 +101,64 @@ h1 {
     display: none;
 }
 
+.slideshow-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: auto;
+    background-color: darkgray;
+    max-height: 500px;
+}
+
+#slidesAction {
+    display: block;
+    max-height: 500px;
+}
+
+.slidePic {
+    max-height: 500px;
+}
+
+.slideText {
+    position: absolute;
+}
+
+#text-0 {
+    padding-bottom: 15px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    background-color: rgba(48, 76, 130, 0.6)
+}
+
+.button {
+    position: absolute;
+    color: aliceblue;
+    margin-bottom: 70px;
+}
+
+.button:hover{
+    color:cadetblue;
+}
+
+.fa-pause {
+    margin-top: 60%;
+    margin-left: 47%;
+    
+}
+
+.fa-chevron-left {
+    margin-top: 60%;
+    margin-left: 41%;
+}
+
+.fa-chevron-right {
+    margin-top: 60%;
+    margin-left: 54%;
+}
+
+
+
 /* The articles on the home page */
 
 h2 {
@@ -265,7 +323,7 @@ h3 {
 /* Settings for the "FAQ" page */
 
 .questions {
-    background-image: url(https://c1.staticflickr.com/7/6077/6030649272_221d7cc70e_b.jpg);
+    background-image: url(extras/underwater.jpg);
     background-size: cover;
 }
 
@@ -294,7 +352,7 @@ h3 {
 /* Settings for the "Yhteystiedot" page */
 
 .contact {
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/78/Finnish_forest.JPG);
+    background-image: url(extras/forest.JPG);
     background-size: cover;
     height: 100%;
     padding: 18%;
@@ -420,6 +478,25 @@ h3 {
     footer {
         clear: right;
     }
+    
+}
+
+@media screen and (min-width: 750px) {
+.fa-pause {
+    margin-top: 10px;
+    margin-left: 7%;
+    
+}
+
+.fa-chevron-left {
+    margin-top: 10px;
+    margin-left: 2%;
+}
+
+.fa-chevron-right {
+    margin-top: 10px;
+    margin-left: 12.5%;
+}
     
 }
 

@@ -1,17 +1,27 @@
-{ 
-    "article1": {
-        "title" : "Terve!",
+{ "articles": [
+    {
+    "id": 0,
+    "article": {
+        "title" : "Toimintamme",
         "date" : "20/7/2017",
-        "content" : "blaablaablaa"
-    },
-    "article2": {
-        "title" : "Hellou!",
-        "date" : "22/8/2017",
-        "content" : "blööblööblöö"
-    },
-    "article3": {
-        "title" : "Ciao!",
-        "date" : "23/9/2017",
-        "content" : "byebyebyebye"
+        "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis turpis id magna viverra consequat. Mauris sed elit at dolor maximus auctor non eget metus. Aliquam non sagittis nunc. Pellentesque commodo, libero in molestie porttitor, risus turpis fermentum risus, vitae volutpat nunc mauris id eros. Cras vel ornare tortor, quis commodo ipsum. Quisque pellentesque turpis lobortis consequat semper."
     }
+    },
+    {
+    "id": 1,
+    "article": {
+        "title" : "Pohjolan Voima -yhteistyö",
+        "date" : "22/8/2017",
+        "content" : "Quisque interdum lacinia neque, a hendrerit nibh venenatis vitae. Sed a purus sit amet felis sodales blandit scelerisque et lorem. Sed ut pretium ipsum, eu ullamcorper elit. Suspendisse eu scelerisque arcu. Donec arcu ex, accumsan sit amet dolor nec, rhoncus pulvinar neque. Cras elementum dapibus condimentum. Vestibulum diam lacus, facilisis at laoreet vel, dignissim sed justo."
+    }
+    },
+    {
+    "id": 2,
+    "article": {
+        "title" : "Kalojen motari",
+        "date" : "23/9/2017",
+        "content" : "Nulla interdum pulvinar mi a eleifend. Nulla et massa ultricies, mattis orci ut, aliquet dolor. Suspendisse potenti. Praesent eu mauris ullamcorper, suscipit neque at, iaculis dui. Duis id viverra leo. In hac habitasse platea dictumst. Aenean tempus, magna in vestibulum congue, lacus sapien dapibus eros, vitae convallis nulla sem ut mi."
+    }
+    }
+]
 }
