@@ -23,20 +23,30 @@ $('#next').click('click', function(e){
 }
 );
     
-
-    
 $('#pause').click('click', function(e){
     window.clearInterval();
     pausePressed = true;
+    $('#pause').hide();
+    $('#play').fadeIn(500);
+});
+    
+$('#play').click('click', function(e){
+    pausePressed = false;
+    $('#play').hide();
+    $('#pause').fadeIn(500);
 });
     
 $(document).ready(function(e) {
-    window.setInterval(function(e){
-    if (pausePressed === false){nextSlide();}
-}, 7000);
+    setTimer();
 });
     
 };
+
+function setTimer(){
+    window.setInterval(function(e){
+    if (pausePressed === false){nextSlide();}
+}, 7000);
+}
 
 function bringSlides(contents) {
         for(var j = 0; j < contents.length; j++) {
@@ -47,6 +57,7 @@ function bringSlides(contents) {
             $('#text-'+j).hide();
             $('#picture-'+j).hide();
          }
+        $('#play').hide();
 }
 
 function showSlide() {
