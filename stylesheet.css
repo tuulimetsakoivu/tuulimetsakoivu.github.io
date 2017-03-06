@@ -502,7 +502,7 @@ h3 {
 }
 
 @media screen and (min-width: 750px) {
-.fa-pause {
+.pauseplay {
     margin-top: 10px;
     margin-left: 7%;
     
