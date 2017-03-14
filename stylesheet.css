@@ -101,6 +101,22 @@ h1 {
     display: none;
 }
 
+.video-player {
+    text-align: center;
+    background-color: lightgray;
+    background-image: url(extras/thumbnail.png);
+    margin: 0px;
+    background-size: cover;
+    background-blend-mode: multiply;
+    border-bottom: solid 40px;
+    border-bottom-color: darkgray;
+}
+
+#welcome {
+    width: 70%;
+    padding: 20px;
+}
+
 .slideshow-container {
     width: 100%;
     height: auto;
