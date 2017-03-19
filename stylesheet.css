@@ -108,8 +108,6 @@ h1 {
     margin: 0px;
     background-size: cover;
     background-blend-mode: multiply;
-    border-bottom: solid 40px;
-    border-bottom-color: darkgray;
 }
 
 #welcome {
