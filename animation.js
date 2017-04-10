@@ -77,7 +77,7 @@ $(document).ready(function() {
     
     function main() {
         if (counter === 0) {
-            createAll(5, ctx);
+            createAll(6, ctx);
         }
         update();
         render();

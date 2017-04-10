@@ -54,7 +54,7 @@ function getRandom(min, max) {
 function create() {
     var X = getRandom(20, 400 - 40);
     var Y = getRandom(20, 400 - 40);
-    var SPEED = 0//getRandom(1, 3);
+    var SPEED = getRandom(1, 4);
     var DIRECTION = getRandom(0, 4);
     var enemy = {
       x: X,

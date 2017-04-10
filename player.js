@@ -9,7 +9,7 @@ var player = {
       y: boardSize/2,
       w: 2*phalf,
       h: 2*phalf,
-      speed: 5,
+      speed: 7,
       health: 5
     };
 
