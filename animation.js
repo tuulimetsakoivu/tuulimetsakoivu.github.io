@@ -6,8 +6,8 @@ $(document).ready(function() {
     canvas.height = 400;
     document.body.appendChild(canvas);
     
-    var counter = 0;
     var keysDown = {};
+    var counter = 0;
     
     window.addEventListener('keydown', function(e) {
         keysDown[e.keyCode] = true;

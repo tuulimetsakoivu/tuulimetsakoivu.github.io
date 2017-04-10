@@ -145,6 +145,8 @@ function drawGameOver(context) {
     context.font = '30px Verdana';
     context.fillStyle = '#FFFFFF';
     context.fillText("Game Over", 117, 155);
+    context.font = '20px Verdana';
+    context.fillText("Press SPACE", 135, 185);
 }
 
 function reset() {
